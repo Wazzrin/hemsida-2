@@ -1,0 +1,35 @@
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 0%;
+    animation-name: groda;
+    animation-duration: 10s;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+    font-size: larger;
+    animation-direction: alternate;
+    position: relative;
+    left: 80%;
+
+}
+
+button {
+    background-color: aqua;
+    border-radius: 50px;
+}
+
+@keyframes groda {
+    100% {
+        left: 15%;
+    }
+}
+
+body {
+    background-image: url(https://media.istockphoto.com/id/654475604/sv/foto/natur-bakgrund.jpg?s=612x612&w=0&k=20&c=Q9sq-5Z1hX2yTKTmmhpIhUeFgHIRv7y-Bsv_unzgfSo=);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li {
+    display: inline
+}
+
